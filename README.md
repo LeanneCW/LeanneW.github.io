@@ -4,5 +4,3 @@ This is a webstie that I am making and going to post to github. To post of githu
 
 1. Right click on the readme, click reveal in finder
 2. On github in your folder go to add/upload files
-
-![screen shot of github pages](README_images/vscodescreenshot.png)

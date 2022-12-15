@@ -1,0 +1,852 @@
+/*headers/text*/
+h1 {
+    font-family: 'Sassy Frass', cursive;
+    margin-left: 50px;
+    font-size: 10em;
+    font-weight: normal;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+}
+
+h2 {
+    font-family: 'Sassy Frass', cursive;
+    font-size: 5em;
+    font-weight: normal;
+}
+
+h3 {
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: 45px;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    font-weight: normal;
+}
+
+h4 {
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: 1em;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    font-weight: normal;
+}
+
+h5 {
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: 2em;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    font-weight: normal;
+}
+
+h6 {
+    font-family: 'Sassy Frass', cursive;
+    font-size: 3em;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    font-weight: normal;
+}
+
+
+
+/*headers/text*/
+
+
+/*background blocks*/
+div#onebl.block {
+    z-index: 1;
+    position: absolute;
+    width: 100%;
+    height: 40em;
+    left: 0em;
+    top: 0em;
+
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+
+    background: var(--White);
+}
+
+div#twobl.block {
+    z-index: 1;
+    position: absolute;
+    width: 100%;
+    height: 35em;
+    left: 0em;
+    top: 45em;
+
+    background: var(--Main-1);
+}
+
+div#threebl.block {
+    z-index: 1;
+    position: absolute;
+    width: 100%;
+    height: 60em;
+    left: 0em;
+    top: 75em;
+
+    background: var(--White);
+}
+
+div#fourbl.block {
+    z-index: 1;
+    position: absolute;
+    width: 100%;
+    height: 50em;
+    left: 0em;
+    top: 135em;
+
+    background: var(--Main-2);
+}
+
+/*background blocks*/
+
+
+/*Title*/
+div#mywork.text {
+    z-index: 2;
+    position: absolute;
+    /* width: ; */
+    height: 3em;
+    left: 5%;
+    top: 15em;
+
+}
+
+/*Title*/
+/*Sidebars*/
+.sidebar {
+    height: 100%;
+    /* initially 0... js will update */
+    width: 0;
+    position: fixed;
+    z-index: 50;
+    top: 5em;
+    background-color: var(--Accent);
+    overflow-x: hidden;
+    overflow-y: scroll;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+/*Sidebars*/
+
+/*Sidebar 1*/
+div#sidebar-1.block {
+    left: 0;
+}
+
+div#oneci {
+    z-index: 4;
+    left: 10%;
+    top: 35em;
+}
+
+div#twoci {
+    z-index: 4;
+    left: 10%;
+    top: 57em;
+}
+
+div#threeci {
+    z-index: 4;
+    left: 10%;
+    top: 75em;
+}
+
+/* bottom of sidebar one*/
+div#hi {
+    position: absolute;
+    border-radius: 10em;
+    background: var(--Accent);
+    color: var(--Accent);
+    border: none;
+    font-family: 'Nanum Gothic', sans-serif;
+    font-weight: normal;
+    padding: 2em 3em;
+    appearance: auto;
+
+    z-index: 4;
+    left: 20%;
+    top: 95em;
+}
+
+/*link to final project*/
+#oneli {
+    z-index: 2;
+    position: absolute;
+    color: #878ea5;
+    left: 10%;
+}
+
+#oneli :hover {
+    color: var(--Main-1);
+}
+
+/*text in sidebar one*/
+div#worldrecord {
+    z-index: 2;
+    position: absolute;
+    color: white;
+
+    width: em;
+    /* height: ; */
+    left: 10%;
+    top: 12em;
+}
+
+div#onete {
+    z-index: 2;
+    position: absolute;
+    color: white;
+    line-height: 1.5em;
+    /* width: ;
+    height: ; */
+    left: 10%;
+    top: 25em;
+}
+
+div#twote {
+    z-index: 2;
+    position: absolute;
+    color: white;
+    line-height: 1.5em;
+    width: 25em;
+    /* height: ; */
+    left: 20%;
+    top: 42em;
+}
+
+div#threete {
+    z-index: 2;
+    position: absolute;
+    color: white;
+    line-height: 1.5em;
+    width: 25em;
+    /* height: ; */
+    left: 20%;
+    top: 64em;
+}
+
+div#fourte {
+    z-index: 2;
+    position: absolute;
+    color: white;
+    line-height: 1.5em;
+    width: 25em;
+    /* height: ; */
+    left: 20%;
+    top: 82em;
+}
+
+
+/*Sidebar 1*/
+
+
+
+
+
+
+
+/*Sidebars 2*/
+div#sidebar-2.block {
+    right: 0;
+}
+/*Circles with numbers in them*/
+div#fourci {
+    z-index: 2;
+    position: relative;
+    left: -5em;
+    top: -2em;
+    right: 0;
+    bottom: 0;
+}
+
+div#fiveci {
+    z-index: 2;
+    position: relative;
+    left: -5em;
+    top: -22em;
+}
+
+div#sixci {
+    z-index: 2;
+    position: relative;
+    left: -5em;
+    top: -57em;
+}
+
+div#sevenci {
+    z-index: 2;
+    position: relative;
+    left: -5em;
+    top: -10em;
+}
+
+/* bottom of sidebar two*/
+div#hello {
+    position: absolute;
+    border-radius: 10em;
+    background: var(--Accent);
+    color: var(--Accent);
+    border: none;
+    font-family: 'Nanum Gothic', sans-serif;
+    font-weight: normal;
+    padding: 2em 3em;
+    appearance: auto;
+
+    z-index: 4;
+    left: 20%;
+    top: 500em;
+}
+
+/*text in sidebar two*/
+div#PAC {
+    z-index: 2;
+    position: static;
+    padding-left: 10%;
+    padding-right: 5em;
+    padding-top: 0%;
+    padding-bottom: 0em;
+    color: white;
+}
+
+
+div#fivete {
+    z-index: 2;
+    position: static;
+    padding-left: 10%;
+    padding-right: 5em;
+    padding-top: 8%;
+    padding-bottom: 0em;
+    color: white;
+    line-height: 1.5em;
+    width: 25em;
+    /* height: ; */
+    left: 10%;
+    top: 17em;
+}
+
+#sixte {
+    z-index: 2;
+    position: static;
+    padding-left: 10%;
+    padding-right: 5em;
+    padding-top: 0em;
+    padding-bottom: 0em;
+    color: white;
+    line-height: 1.5em;
+    width: 29em;
+    /* height: ; */
+    left: 10%;
+    top: 25em;
+}
+
+#sixxte {
+    z-index: 2;
+    position: static;
+    padding-left: 10%;
+    padding-right: 5em;
+    padding-top: 8%;
+    padding-bottom: 0em;
+    color: white;
+    line-height: 1.5em;
+    width: 29em;
+    /* height: ; */
+    left: 10%;
+    top: 25em;
+}
+
+#sevente {
+    z-index: 2;
+    position: static;
+    padding-left: 25%;
+    padding-right: 0em;
+    padding-top: 2%;
+    padding-bottom: 0em;
+    width: 20em;
+    color: white;
+    line-height: 1.5em;
+
+    /* height: ; */
+    left: 20%;
+
+}
+
+img#pacthink {
+    z-index: 2;
+    position: static;
+    /* padding-left: 25%; */
+    /* padding-right: 0em;
+    padding-top: 30%;
+    padding-bottom: 0em; */
+    width: 80%;
+}
+
+#eightte {
+    z-index: 2;
+    position: static;
+    padding-left: 25%;
+    padding-right: 0em;
+    padding-top: 0em;
+    padding-bottom: 0em;
+    width: 20em;
+    color: white;
+    line-height: 1.5em;
+    /* height: ; */
+    left: 20%;
+
+}
+
+img#processone {
+    z-index: 2;
+    position: static;
+    padding-left: 25%;
+    padding-right: 0em;
+    padding-top: 30%;
+    padding-bottom: 0em;
+    width: 20em;
+
+}
+
+img#processtwo {
+    z-index: 2;
+    position: static;
+    padding-left: 25%;
+    padding-right: 0em;
+    padding-top: 0%;
+    padding-bottom: 0em;
+    width: 20em;
+}
+
+#ninete {
+    z-index: 2;
+    position: static;
+    padding-left: 25%;
+    padding-right: 0em;
+    padding-top: 2%;
+    padding-bottom: 0em;
+    color: white;
+    line-height: 1.5em;
+    width: 20em;
+    /* height: ; */
+    left: 20%;
+
+}
+
+
+#twoch {
+    z-index: 2;
+    position: static;
+    padding: 10%;
+    color: white;
+    background-color: var(--Main-2);
+    line-height: 1.5em;
+    width: 20em;
+
+
+}
+
+#tente {
+    z-index: 2;
+    position: static;
+    padding-left: 20%;
+    padding-right: 0em;
+    padding-top: 2%;
+    padding-bottom: 0em;
+    color: white;
+    line-height: 1.5em;
+    width: 25em;
+    /* height: ; */
+    left: 10%;
+
+}
+
+img#pacfinalone {
+    z-index: 2;
+    position: static;
+    padding-left: 20%;
+    padding-right: 0em;
+    padding-top: 30%;
+    padding-bottom: 0em;
+    width: 25em;
+}
+
+img#pacfinaltwo {
+    z-index: 2;
+    position: static;
+    padding-left: 20%;
+    padding-right: 0em;
+    padding-top: 30%;
+    padding-bottom: 0em;
+    width: 25em;
+}
+
+img#pacinside {
+    z-index: 2;
+    position: static;
+    padding-left: 20%;
+    padding-right: 0em;
+    padding-top: 30%;
+    padding-bottom: 0em;
+    width: 25em;
+}
+
+#elevente {
+    z-index: 2;
+    position: static;
+    padding-left: 20%;
+    padding-right: 0em;
+    padding-top: 2%;
+    padding-bottom: 0em;
+    color: white;
+    line-height: 1.5em;
+    width: 25em;
+
+
+}
+
+#elevennte {
+    z-index: 2;
+    position: static;
+    padding-left: 20%;
+    padding-right: 0em;
+    padding-top: 2%;
+    padding-bottom: 0em;
+    color: white;
+    line-height: 1.5em;
+    width: 25em;
+    /* height: ; */
+    left: 10%;
+
+}
+
+#twelvete {
+    z-index: 2;
+    position: static;
+    padding-left: 20%;
+    padding-right: 0em;
+    padding-top: 2%;
+    padding-bottom: 0em;
+    color: white;
+    line-height: 1.5em;
+    width: 28em;
+    /* height: ; */
+    left: 10%;
+
+}
+
+
+
+
+
+/*????*/
+/*
+div#sixbl.block a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: var(--Main-1);
+    display: block;
+    transition: 0.3s;
+}
+
+div#sixbl.block a:hover {
+    color: #f1f1f1;
+}
+*/
+
+/*#main {
+    transition: margin-left .5s;
+    padding: 16px;
+}*/
+
+/*Sidbar 2*/
+
+
+
+/*first image on main page with airplane*/
+div#oneim.image {
+    z-index: 3;
+    position: absolute;
+    width: 34%;
+    height: 20em;
+    left: 55%;
+    top: 30em;
+
+
+    background: var(--Neutral-2)
+}
+
+div#twoim.image {
+    z-index: 2;
+    position: absolute;
+    width: 34%;
+    height: 20em;
+    left: 10%;
+    top: 65em;
+
+    background: var(--Neutral-2)
+}
+
+div#threeim.image {
+    z-index: 2;
+    position: absolute;
+    width: 34%;
+    height: 20em;
+    left: 55%;
+    top: 100em;
+
+    background: var(--Neutral-2)
+}
+
+div#fourim.image {
+    z-index: 2;
+    position: absolute;
+
+    width: 34%;
+    height: 20em;
+    left: 55%;
+    top: 150em;
+
+    background: var(--Neutral-2)
+}
+
+
+img#onepi {
+    z-index: 2;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    filter: grayscale(100%);
+
+
+    background: var(--Neutral-2)
+}
+
+img#twopi {
+    z-index: 2;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    filter: grayscale(100%);
+
+
+    background: var(--Neutral-2)
+}
+
+/*buttons*/
+/* button.button {
+    
+    width: 12%;
+    height: 3em;
+    background: var(--Neutral-2);
+    border: none;
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: 1em;
+    font-weight: normal;
+} */
+
+/* On mouse-over */
+button.button:hover {
+    background: var(--Neutral-1);
+}
+
+/*speific buttons*/
+#project-button-1 {
+    z-index: 100;
+    transition: .5s;
+}
+
+#project-button-2 {
+    z-index: 100;
+    /* left: 60%;
+    top: 73.5em; */
+    transition: .5s;
+}
+
+#project-button-3 {
+    z-index: 100;
+    /* left: 30%;
+    top: 110em; */
+    transition: .5s;
+}
+
+
+/* button#fourbu.button {
+    z-index: 2;
+    left: 30%;
+    top: 160em;
+} */
+
+/*buttons*/
+
+
+
+/* new */
+
+
+/*Circles with numbers in them*/
+
+
+div.circle {
+    z-index: 3;
+    border-radius: 100em;
+    background: var(--White);
+    color: var(--Accent);
+    border: none;
+    font-family: 'Nanum Gothic', sans-serif;
+    font-weight: normal;
+    font-size: 1em;
+
+    width: 4em;
+    height: 4em;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.number-title-container {
+    z-index: 3;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+}
+
+.circle-container {
+    z-index: 3;
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: top;
+}
+.circle-number{
+    z-index: 3;
+}
+.line{
+    z-index: 2;
+    position: relative;
+    left: -.90em;
+    top: 98em;
+    border-left: 3px solid white;
+    height: 195em;
+}
+
+.heading-container {
+    flex-grow: 3;
+    display: flex;
+    align-items: bottom;
+    align-self: flex-end;
+    padding-top: 3.5em;
+    padding-left: 10%;
+}
+
+.project-heading {
+    color: var(--White);
+}
+
+.subtitle-container {
+    flex-grow: 3;
+    display: flex;
+    align-items: bottom;
+    align-self: flex-end;
+    padding-top: 3.5em;
+}
+
+.project-step-heading {
+    color: var(--White);
+}
+
+.project-text-container {
+    color: white;
+    line-height: 1.5em;
+    width: 60%;
+
+}
+
+.justtify-right {
+    display: flex;
+    justify-content: right;
+}
+
+.content-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.project-panel-image {
+    width: 60%;
+}
+
+h3.circle-number {}
+
+.left-30{
+    padding-left: 30%
+}
+
+.left-25 {
+    padding-left: 25%;
+}
+
+
+.left-10{
+    padding-left: 10%;
+}
+
+.bottom-10 {
+    padding-bottom: 5em;
+}
+.top-5{
+    padding-top: 5em;
+}
+.top-2{
+    padding-top: 2em;
+}
+.top-1 {
+    padding-top: 1em;
+}
+
+.challenge-responce{ 
+    z-index: 3;
+    padding: 5%;
+    color: white;
+    background-color: var(--Main-1);
+    line-height: 1.5em;
+    
+    width: 20em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/*main portfolio page stuff*/
+.project-image-button-container{
+    z-index: 100;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.image-of-project-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 30%;
+    
+}
+
+img.image-of-project{
+    z-index: 100;
+    width: 34%;
+    height: 20em;
+    filter: grayscale(100%);
+}
+.project-button{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    width: 5%;
+    padding: 1%;
+}

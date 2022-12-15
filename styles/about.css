@@ -1,0 +1,272 @@
+h1 {
+    margin-left: 0em;
+}
+
+h3 {
+    font-size: 2em;
+}
+
+div#one.block {
+    z-index: 1;
+    position: absolute;
+    width: 1440px;
+    height: 613px;
+    left: 0px;
+    top: 0px;
+    background: var(--Main-1)
+}
+
+div#twobl.block {
+    z-index: 2;
+    position: absolute;
+    width: 20em;
+    height: 30em;
+    left: 10em;
+    top: 10em;
+    background: var(--Main-2)
+}
+
+div#rec5.block {
+    z-index: 2;
+    position: absolute;
+    width: 131px;
+    height: 127px;
+    left: 285px;
+    top: 53em;
+    background-color: var(--Main-2)
+}
+
+div#rec6.block {
+    z-index: 2;
+    position: absolute;
+    width: 131px;
+    height: 127px;
+    left: 460px;
+    top: 53em;
+    background-color: var(--Main-2)
+}
+
+div#rec7.block {
+    z-index: 2;
+    position: absolute;
+    width: 131px;
+    height: 127px;
+    left: 624px;
+    top: 53em;
+    background-color: var(--Main-2)
+}
+
+div#rec8.block {
+    z-index: 2;
+    position: absolute;
+    width: 131px;
+    height: 127px;
+    left: 799px;
+    top: 53em;
+    background-color: var(--Main-2)
+}
+
+div#rec9.block {
+    z-index: 2;
+    position: absolute;
+    width: 131px;
+    height: 127px;
+    left: 963px;
+    top: 53em;
+    background-color: var(--Main-2)
+}
+
+img#onepi{
+    z-index: 2;
+    position: absolute;
+    width: 70%;
+    left: 15%;
+    top: 15%;
+    filter: grayscale(100%);
+}
+img#twopi{
+    z-index: 2;
+    position: absolute;
+    width: 104%;
+    left: 0;
+    top: 17%;
+    filter: grayscale(100%);
+}
+img#threepi{
+    z-index: 2;
+    position: absolute;
+    width: 70%;
+    left: 15%;
+    top: 15%;
+    filter: grayscale(100%);
+}
+
+img#fourpi{
+    z-index: 2;
+    position: absolute;
+    width: 45%;
+    left: 30%;
+    top: 15%;
+    filter: grayscale(100%);
+}
+img#fivepi{
+    z-index: 2;
+    position: absolute;
+    width: 70%;
+    left: 15%;
+    top: 15%;
+    filter: grayscale(100%);
+}
+
+div#tools.block {
+    z-index: 2;
+    color: var(--Black);
+    position: absolute;
+    width: 177px;
+    height: 85px;
+    left: 56px;
+    top: 761px;
+
+    font-family: 'Sassy Frass';
+    font-style: normal;
+}
+
+div#three.block {
+    z-index: 1;
+    position: absolute;
+    width: 1440px;
+    height: 649px;
+    left: 0px;
+    top: 887px;
+    background: var(--Neutral-1);
+}
+
+
+
+
+div#onete {
+    z-index: 2;
+    position: absolute;
+    left: 45%;
+    top: 15em;
+}
+
+div#twote {
+    z-index: 2;
+    position: absolute;
+    left: 50%;
+    top: 25em;
+}
+
+div#threete {
+    z-index: 2;
+    position: absolute;
+    left: 10%;
+    top: 40em;
+}
+
+div#fourte {
+    z-index: 2;
+    position: absolute;
+    width: 543px;
+    height: 85px;
+    left: 33%;
+    top: 65em;
+}
+
+div#fivete {
+    z-index: 2;
+    position: absolute;
+    width: 711px;
+    height: 122px;
+    line-height: 1.5em;
+    left: 365px;
+    top: 1277px;
+}
+
+div#sixte {
+    z-index: 2;
+    position: absolute;
+    width: 170px;
+    height: 85px;
+    left: 15%;
+    top: 100em;
+}
+
+div#sevente {
+    z-index: 2;
+    position: absolute;
+    width: 795px;
+    height: 219px;
+    left: 15%;
+    top: 115em;
+}
+
+div#four.block {
+    z-index: 1;
+    position: absolute;
+    width: 1440px;
+    height: 552px;
+    left: 0px;
+    top: 2204px;
+    background: var(--Neutral-2);
+}
+
+div#five.block {
+    z-index: 2;
+    position: absolute;
+    width: 898px;
+    height: 430px;
+    left: 271px;
+    top: 2116px;
+    background: var(--Accent);
+}
+
+div#resume.text {
+    z-index: 3;
+    position: absolute;
+    width: 264px;
+    height: 85px;
+    left: 42%;
+    top: 140em;
+    line-height: 0px;
+    color: var(--Black);
+
+}
+
+div#resumebutton.button {
+    z-index: 3;
+    position: absolute;
+    padding-left: 3em;
+    padding-right: 3em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    left: 44%;
+    top: 150em;
+    background: var(--Neutral-2);
+}
+
+div#onena {
+    z-index: 4;
+    position: absolute;
+    width: 389px;
+    height: 95px;
+    left: 526px;
+    top: 200em;
+    background: var(--Neutral-2);
+}
+
+div#ree.bck {
+    color: var(--Black);
+    background: var(--Main-1);
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+}
+
+section#section_1 {
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: 1em;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    font-weight: normal;
+}

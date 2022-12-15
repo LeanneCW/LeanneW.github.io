@@ -1,0 +1,175 @@
+ h1 {
+     margin-left: 0em;
+ }
+
+ h4 {
+     font-size: 2em;
+ }
+
+ div#onebl {
+     z-index: 1;
+     position: absolute;
+     width: 100%;
+     height: 20em;
+     left: 0em;
+     top: 0em;
+
+     background: var(--White);
+ }
+
+ div#twobl {
+     z-index: 1;
+     position: absolute;
+     width: 100%;
+     height: 70em;
+     left: 0em;
+     top: 10em;
+
+     background: var(--Main-1);
+ }
+
+ div#threebl {
+     z-index: 1;
+     position: absolute;
+     width: 100%;
+     height: 20em;
+     left: 0em;
+     top: 80em;
+
+
+     background: var(--White);
+ }
+
+ div#onete {
+     z-index: 2;
+     position: absolute;
+     left: 20%;
+     top: 20em;
+ }
+
+ div#twote {
+     z-index: 2;
+     position: absolute;
+     font-family: 'Nanum Gothic', sans-serif;
+     font-size: 1em;
+     font-weight: normal;
+     left: 30%;
+     top: 30em;
+ }
+
+ div#threete {
+     z-index: 2;
+     position: absolute;
+     font-family: 'Nanum Gothic', sans-serif;
+     font-size: 1em;
+     font-weight: normal;
+     left: 50%;
+     top: 30em;
+ }
+
+ div#fourte {
+     z-index: 2;
+     position: absolute;
+     font-family: 'Nanum Gothic', sans-serif;
+     font-size: 1em;
+     font-weight: normal;
+     left: 30%;
+     top: 37em;
+ }
+
+ div#fivete {
+     z-index: 2;
+     position: absolute;
+     font-family: 'Nanum Gothic', sans-serif;
+     font-size: 1em;
+     font-weight: normal;
+     left: 25%;
+     top: 53em;
+ }
+
+
+ form#formbox {
+     z-index: 2;
+
+
+     padding-left: 5em;
+     position: absolute;
+     width: 40%;
+     left: 25%;
+     height: 10em;
+     top: 40em;
+     
+ }
+
+ div.form-group {
+     font-family: 'Nanum Gothic', sans-serif;
+     font-size: 1em;
+ }
+
+ div#namefo {
+     display: inline-block;
+     padding-right: 3em;
+     padding-bottom: 1em;
+ }
+
+ input#name {
+     background: var(--White);
+     border-color: var(--White);
+     width: 100%;
+ }
+
+ div#emailtext {
+     top: 2em;
+     display: inline-block;
+ }
+
+ input#email {
+     background: var(--White);
+     border-color: var(--White);
+     width: 100%;
+ }
+
+ textarea#message {
+     background: var(--White);
+     border-color: var(--White);
+     width: 100%;
+     padding-top: 4em;
+ }
+
+
+ button.social {
+     position: absolute;
+     border-radius: 10em;
+     background: var(--White);
+     border: none;
+     font-family: 'Nanum Gothic', sans-serif;
+     font-weight: normal;
+     padding: 3em 3em;
+     appearance: auto;
+     top: 83em;
+ }
+
+ button#oneso {
+     z-index: 3;
+     left: 30%;
+ }
+
+ button#twoso {
+     z-index: 3;
+     left: 40%;
+ }
+
+ button#threeso {
+     z-index: 3;
+     left: 50%;
+ }
+
+ button#fourso {
+     z-index: 3;
+     left: 60%;
+ }
+
+ button#fiveso {
+     z-index: 3;
+     left: 70%;
+ }
